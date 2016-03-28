@@ -1,0 +1,11 @@
+repositories {
+	maven {
+		url "https://dl.bintray.com/supersonic/android-adapters"
+	}
+}
+
+cdvPluginPostBuildExtras.add({
+	dependencies {
+	    compile 'com.supersonic.adapters:hyprmxadapter:1.0.3@jar'
+	}
+});

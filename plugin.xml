@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-supersonicads-mediation-hyprmx" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-supersonicads-mediation-hyprmx</name>
+    <description>Add support for HyprMX in supersonic ads mediation platform for a Cordova app</description>
+
+    <engines>
+        <engine name="cordova-android" version=">=4.0.0" />
+        <engine name="cordova-plugman" version=">=4.2.0" />
+    </engines>
+
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:name="com.supersonic.adapters.hyprmx.MediationHMXActivity" android:configChanges="orientation|screenSize|keyboardHidden|keyboard| smallestScreenSize|uiMode|fontScale|screenLayout|locale"/>
+            <service android:name="com.hyprmx.android.sdk.service.ApplicationInstallService" android:enabled="true" android:exported="false" android:stopWithTask="false"/>
+        </config-file>
+
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+    </platform>
+</plugin>
