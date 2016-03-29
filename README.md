@@ -1,23 +1,23 @@
-# Flurry for Supersonic Ads Mediation Platform
+# HyprMX for Supersonic Ads Mediation Platform
 Add support for [HyprMX](https://mediate.hyprmx.com/) in [Supersonic Ads](https://www.supersonic.com/) mediation platform to your Cordova app
 
 ## How do I install it? ##
 
 If you're like me and using [CLI](http://cordova.apache.org/):
 ```
-cordova plugin add cordova-plugin-supersonicads-mediation-flurry
+cordova plugin add cordova-plugin-supersonicads-mediation-hyprmx
 ```
 
 or
 
 ```
-cordova plugin add https://github.com/SeVeNDuS/cordova-plugin-supersonicads-mediation-flurry
+cordova plugin add https://github.com/SeVeNDuS/cordova-plugin-supersonicads-mediation-hyprmx
 ```
 
 or
 
 ```
-phonegap local plugin add https://github.com/SeVeNDuS/cordova-plugin-supersonicads-mediation-flurry
+phonegap local plugin add https://github.com/SeVeNDuS/cordova-plugin-supersonicads-mediation-hyprmx
 ```
 
 ## How do I use it? ##

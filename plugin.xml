@@ -11,7 +11,7 @@
 
     <platform name="android">
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:name="com.supersonic.adapters.hyprmx.MediationHMXActivity" android:configChanges="orientation|screenSize|keyboardHidden|keyboard| smallestScreenSize|uiMode|fontScale|screenLayout|locale"/>
+            <activity android:name="com.supersonic.adapters.hyprmx.MediationHMXActivity" android:configChanges="orientation|screenSize|keyboardHidden|keyboard|smallestScreenSize|uiMode|fontScale|screenLayout|locale"/>
             <service android:name="com.hyprmx.android.sdk.service.ApplicationInstallService" android:enabled="true" android:exported="false" android:stopWithTask="false"/>
         </config-file>
 
